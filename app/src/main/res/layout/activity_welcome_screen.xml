@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeScreen">
+
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_margin="20dp"
+        android:text="Welcome"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="20dp"
+        android:text="These are your details from our Database"/>
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mail"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvUniqueId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="UNIQUE ID"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>
